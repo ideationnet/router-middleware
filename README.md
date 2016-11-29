@@ -3,6 +3,14 @@
 A simple PSR-15 compatible router middleware, based on 
 [Fast Route](https://github.com/nikic/FastRoute).
 
+## Install
+
+Via Composer 
+
+```bash
+$ composer require ideationnet/router-middleware
+```
+
 ## Usage
 
 Use with your favourite PSR-15 middleware dispatcher.
