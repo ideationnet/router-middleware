@@ -13,8 +13,12 @@ $ composer require ideationnet/router-middleware
 
 ## Usage
 
-Use with your favourite PSR-15 middleware dispatcher.
-Inject an instance of `Dispatcher`.
+Use with your favourite PSR-15 middleware dispatcher, 
+like [Stack Runner](https://github.com/ideationnet/stack-runner). 
+Inject an instance of `FastRoute\Dispatcher`.
+Two different dispatchers? Is that confusing enough? One of them
+processes the stack of middleware, the other (probably at the bottom
+of this stack) will route to the correct controller.
 See [Wafer](https://github.com/ideationnet/wafer) for an example of this used with 
 PHP-DI...
 
